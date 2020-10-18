@@ -7,7 +7,9 @@ import Pusher from 'pusher'
 // model 
 import Message from './models/Messages.js'
 
-import { MONGO_CONNECTION, PUSHER_CONFIG } from './config/connections.js'
+// added config
+import { MONGO_CONNECTION, PUSHER_CONFIG } from './config/connections.js';
+
 // app config 
 const app = express();
 const port = process.env.PORT || 5000;
